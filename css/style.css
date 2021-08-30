@@ -1,0 +1,267 @@
+/*---------- *Import de fonts* ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+/* ---------- *CSS Reset* ---------- */
+
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    display: flex;
+    font-size: 18px;
+    width: 95%;
+    margin: auto;
+    background-color: #f4f4f4;
+    font-family: 'Oxygen', sans-serif;
+}
+
+aside {
+    display: block;
+    height: 100%;
+    width: 30%;
+    margin-top: 4vh;
+    margin-right: 3vw;
+}
+
+.aside-title {
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+.aside-section {
+    width: 100%;
+    height: 30%;
+    margin-top: 1.2rem;
+    margin-bottom: 3.5rem;
+}
+
+.paragragh-aside {
+    line-height: 30px;
+    margin-bottom: 3vh;
+}
+
+.image-section-aside {
+    max-width: 100%;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    margin-top: 2.5rem;
+}
+
+.aside-down {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    border: 1px solid rgb(133, 133, 133);
+    margin-top: -0.3rem;
+}
+
+.paragragh-section {
+    font-size: 1rem;
+}
+
+.aside-footer {
+    margin-top: 3.1rem;
+}
+
+.title-article {
+    margin-bottom: 1.3rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem 1.6rem;
+    background-color: #f4f4f4;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+article {
+    margin-bottom: 4rem;
+}
+
+.section-itens {
+    width: 100%;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.iten {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.iten1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+}
+
+.iten-escrito {
+    margin-left: 1rem;
+}
+
+.p-section-iten {
+    width: 18%;
+    color: gray;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    border-bottom: 1px dotted gray;
+}
+
+/* ---------- *Main* ---------- */
+
+main {
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid red; */
+    background-color: #f4f4f4;
+    margin-top: 4vh;
+}
+
+.container2 {
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+.container-main {
+    width: 100%;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.img-section-main {
+    max-width: 100%;
+    width: 100%;
+    height: 39vh;
+    object-fit: cover;
+    margin-top: 2.9rem;
+}
+
+.main-title {
+    margin-bottom: 2vh;
+}
+
+.main-paragragh { 
+    margin-bottom: 5vh;
+}
+
+/* ---------- *Aside / Sections* ---------- */
+
+.section1 {
+    width: 100%;
+}
+
+.section-paragragh {
+    margin-top: 5vh;
+    text-align: justify;
+}
+
+.down-section1 {
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-section {
+    padding: 1rem 1.6rem;
+    background-color: #fff;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+span {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.btn-section:hover {
+    background-color: #f4f4f4;
+}
+
+.fa-heart {
+    color: gray;
+}
+
+.text-section {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+/* ---------- *Media Query* ----------*/
+
+@media(max-width:920px) {
+    body {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+   aside {
+        width: 100%; 
+        height: 100%;
+        display: block;
+        margin: 0 auto;    
+   }    
+
+   .top-aside {
+       display: block;
+       width: 50%;
+       margin: 0 auto 0 auto;
+       text-align: center;
+   }
+   .container {
+       width: 40%;
+       margin: 2rem;
+   }
+
+   .aside-section {
+       display: flex;
+       flex-wrap: wrap;
+       margin: auto;
+       justify-content: center;
+   }
+ 
+  .paragrafo {
+      width: 100%;
+  }
+   .section-itens {
+       margin: auto;
+   }
+   .paragragh-section {
+       width: 50%;
+   }
+   .article-res {
+        display: block;
+        width: 100%;
+        margin: 0 auto 0 auto;
+   }
+
+   .btn {
+       margin-bottom: 10rem;
+   }
+
+   main {
+        display: block;
+        width: 99%;
+        margin: 0 auto 0 auto;
+   }
+   .container-main {
+       text-align: center;
+   }
+}
