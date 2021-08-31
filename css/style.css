@@ -265,3 +265,18 @@ span {
        text-align: center;
    }
 }
+
+@media (max-width: 675px) {
+    .aside-section {
+        width: 90%;
+    }
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 470px) {
+    .container {
+        width: 95%;
+    }
+}
